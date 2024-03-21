@@ -31,7 +31,7 @@ class _TkMaterialLocalization
       TkMaterialLocalization(
         localeName: localeName,
         fullYearFormat: intl.DateFormat('y', localeName),
-        compactDateFormat: intl.DateFormat('yMd', localeName),
+        compactDateFormat: intl.DateFormat('ydM', localeName),
         shortDateFormat: intl.DateFormat('yMMMd', localeName),
         mediumDateFormat: intl.DateFormat('EEE, MMM d', localeName),
         longDateFormat: intl.DateFormat('EEEE, MMMM d, y', localeName),
