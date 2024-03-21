@@ -412,7 +412,7 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
   @override
   String formatShortDate(DateTime date) {
     final String month = _shortMonths[date.month - DateTime.january];
-    return '$month ${date.day}, ${date.year}';
+    return '${date.day}, $month ${date.year}';
   }
 
   String _formatTwoDigitZeroPad(int number) {
