@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:intl/intl.dart' as intl;
-import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
+import 'package:intl/date_symbols.dart' as intl;
+import 'package:intl/intl.dart' as intl;
+
 import 'tk_patterns.dart';
 
 class _TkCupertinoLocalization
@@ -203,6 +204,5 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
   @override
   String get shareButtonLabel => 'Paýlaşmak...';
 
-  @override
   String get clearButtonLabel => 'Arassalamak';
 }
